@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.title-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-nav h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.title-nav nav {
+  display: flex;
+  gap: 2em;
+}
+
+.title-nav a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.title-image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.title-image div {
+  width: 50%;
+}
+
+.title-image button {
+  background-color: #3882f6;
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+}
+
+.title-image h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  display: inline;
+}
+
+.title-image p {
+  font-size: 18px;
+  color: #e5e7eb;
+  word-wrap: break-word;
+}
+
+.title-image img {
+  width: 500px;
+  height: 230px;
+  object-fit: cover;
+}
