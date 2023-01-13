@@ -6,7 +6,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-section {
+section,
+footer {
   padding-left: 250px;
   padding-right: 250px;
 }
@@ -157,5 +158,18 @@ section {
   color: inherit;
   /* height: 35px; */
   padding: 5px 30px;
+  font-size: 15pt;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #1f2937;
+}
+
+footer p {
+  color: #fff;
   font-size: 15pt;
 }
