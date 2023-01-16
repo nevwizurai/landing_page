@@ -1,3 +1,3 @@
-# Landing Page
+# Landing Page by nevwizurai
 
-- Made by Nevir Wizurai
+Live Preview: https://nevwizurai.github.io/landing_page
